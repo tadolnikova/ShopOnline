@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+      <input type="submit" name="submit" id="101">
+     
+      <h1>Добавить товар</h1>
+      <fieldset style="width: 30%;">
+      <label for="name">Наименование</label>
+      <br>
+      <input type="text" name="name">
+      <br>
+      <label for="category">Категория</label>
+      <br>
+      <input type="text" name="category">
+      <br>
+      <label for="units">Единицы измерения</label>
+      <br>
+      <input type="text" name="units">
+      <br>
+      <label for="discount">Дисконт</label>
+      <br>
+      <input type="checkbox" name="discount" value="checkbox">
+      <input type="text">
+      <label for="Описание">Описание</label>
+      <br>
+      <textarea name="description" cols="20" rows="5"></textarea>
+      <br>
+      <label for="count">Количество</label>
+      <br>
+      <input type="text" name="count">
+      <br>
+      <label for="price">Цена</label>
+      <br>
+      <input type="text" name="price">
+      <br>
+      <input type="file" multiple="file" name="file" accept="image/jpeg, image/png">
+      <br>
+    </fieldset>
+      <br>
+      <input type="button" value="Добавить товар" name="add product">
+    </form>
+  </body>
+</html>
